@@ -33,7 +33,7 @@ exports.config = {
     // Test Configurations
     // ===================
     maxInstances: 10,
-    logLevel: 'error',
+    logLevel: 'info',
     bail: 0,
     baseUrl: ``,
     waitforTimeout: 10000,

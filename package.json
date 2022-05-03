@@ -12,7 +12,7 @@
         "@wdio/devtools-service": "^7.16.13",
         "@wdio/local-runner": "^7.16.13",
         "@wdio/mocha-framework": "^7.16.13",
-        "@wdio/selenium-standalone-service": "^7.16.13",
+        "@wdio/selenium-standalone-service": "^7.19.5",
         "@wdio/spec-reporter": "^7.16.13"
     },
     "scripts": {
@@ -50,6 +50,7 @@
         "chai": "^4.3.4",
         "chromedriver": "^101.0.0",
         "eslint": "^8.7.0",
+        "npm-check-updates": "^12.5.11",
         "pg": "^8.7.1",
         "superagent": "^7.1.1"
     }
