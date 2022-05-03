@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643156206459' stop='1643156213027'>
+    <name>Squad - Segurança</name>
+    <title>Squad - Segurança</title>
+    <test-cases>
+        <test-case start='1643156206459' status='passed' stop='1643156209721'>
+            <name>[WDIO-LOGIN-0001] - Validar login por usuario e senha</name>
+            <title>[WDIO-LOGIN-0001] - Validar login por usuario e senha</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Login'/>
+                <label name='severity' value='normal'/>
+                <label name='testId' value='https://example.org/issue/CAO-1234'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-97.0.4692.99'/>
+                <parameter kind='argument' name='iOS' value='iPhone 11'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6fe39aa4-f9ec-4bef-ba0f-4a7d25529dfc-attachment.png' type='image/png' size='60340'/>
+            </attachments>
+        </test-case>
+        <test-case start='1643156209722' status='passed' stop='1643156213026'>
+            <name>[WDIO-LOGIN-0002] - Validar login por usuario e senha (exemplo 2)</name>
+            <title>[WDIO-LOGIN-0002] - Validar login por usuario e senha (exemplo 2)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Login'/>
+                <label name='severity' value='trivial'/>
+                <label name='testId' value='https://example.org/issue/CAO-5467'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-97.0.4692.99'/>
+                <parameter kind='argument' name='iOS' value='iPhone 11'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='eb0b828b-312b-4817-803a-e853373ac7a4-attachment.png' type='image/png' size='129222'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

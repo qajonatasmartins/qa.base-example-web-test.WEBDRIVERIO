@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1644523354550' stop='1644523361094'>
+    <name>Squad - Segurança</name>
+    <title>Squad - Segurança</title>
+    <test-cases>
+        <test-case start='1644523354550' status='passed' stop='1644523357959'>
+            <name>[WDIO-LOGIN-0001] - Validar login por usuario e senha</name>
+            <title>[WDIO-LOGIN-0001] - Validar login por usuario e senha</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Login'/>
+                <label name='severity' value='normal'/>
+                <label name='testId' value='https://example.org/issue/CAO-1234'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-98.0.4758.80'/>
+                <parameter kind='argument' name='android' value='Nexus 6'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f5adaa7d-6fdc-465c-9082-8adae1f403e8-attachment.png' type='image/png' size='59197'/>
+            </attachments>
+        </test-case>
+        <test-case start='1644523357960' status='passed' stop='1644523361093'>
+            <name>[WDIO-LOGIN-0002] - Validar login por usuario e senha (exemplo 2)</name>
+            <title>[WDIO-LOGIN-0002] - Validar login por usuario e senha (exemplo 2)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Login'/>
+                <label name='severity' value='trivial'/>
+                <label name='testId' value='https://example.org/issue/CAO-5467'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-98.0.4758.80'/>
+                <parameter kind='argument' name='android' value='Nexus 6'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f0c6ce92-0691-4b24-b397-3920ec712766-attachment.png' type='image/png' size='274572'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

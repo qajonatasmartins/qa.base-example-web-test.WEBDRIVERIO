@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643152439179' stop='1643152443497'>
+    <name>Squad - Segurança</name>
+    <title>Squad - Segurança</title>
+    <test-cases>
+        <test-case start='1643152439179' status='passed' stop='1643152442503'>
+            <name>[WDIO-LOGIN-0001] - Validar login por usuario e senha</name>
+            <title>[WDIO-LOGIN-0001] - Validar login por usuario e senha</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Login'/>
+                <label name='severity' value='normal'/>
+                <label name='testId' value='https://example.org/issue/CAO-1234'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-97.0.1072.69'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='13364cee-c5dd-45b5-9594-ae6143334cfe-attachment.png' type='image/png' size='165213'/>
+            </attachments>
+        </test-case>
+        <test-case start='1643152442503' status='passed' stop='1643152443497'>
+            <name>[WDIO-LOGIN-0002] - Validar login por usuario e senha (exemplo 2)</name>
+            <title>[WDIO-LOGIN-0002] - Validar login por usuario e senha (exemplo 2)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Login'/>
+                <label name='severity' value='trivial'/>
+                <label name='testId' value='https://example.org/issue/CAO-5467'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='msedge-97.0.1072.69'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8547639d-6fb1-49e4-9ae2-f601b22c2fec-attachment.png' type='image/png' size='165205'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

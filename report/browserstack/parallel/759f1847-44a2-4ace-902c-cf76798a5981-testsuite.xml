@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1643157529541' stop='1643157549237'>
+    <name>Squad - Segurança</name>
+    <title>Squad - Segurança</title>
+    <test-cases>
+        <test-case start='1643157529541' status='passed' stop='1643157539228'>
+            <name>[WDIO-LOGIN-0001] - Validar login por usuario e senha</name>
+            <title>[WDIO-LOGIN-0001] - Validar login por usuario e senha</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Login'/>
+                <label name='severity' value='normal'/>
+                <label name='testId' value='https://example.org/issue/CAO-1234'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='545909df-20f6-4f56-9917-ae7370b3abc1-attachment.png' type='image/png' size='51785'/>
+            </attachments>
+        </test-case>
+        <test-case start='1643157539229' status='broken' stop='1643157549236'>
+            <name>[WDIO-LOGIN-0002] - Validar login por usuario e senha (exemplo 2)</name>
+            <title>[WDIO-LOGIN-0002] - Validar login por usuario e senha (exemplo 2)</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='feature' value='Login'/>
+                <label name='severity' value='trivial'/>
+                <label name='testId' value='https://example.org/issue/CAO-5467'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 10000ms exceeded. The execution in the test "Squad - Segurança [WDIO-LOGIN-0002] - Validar login por usuario e senha (exemplo 2)" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/jonatasmartins/Documents/Projetos/Projetos-base/web/mocha/local/babel/webdriverIO_web_mocha_babel_local/test/login/example.e2e.js)</message>
+                <stack-trace>Error: Timeout of 10000ms exceeded. The execution in the test "Squad - Segurança [WDIO-LOGIN-0002] - Validar login por usuario e senha (exemplo 2)" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/jonatasmartins/Documents/Projetos/Projetos-base/web/mocha/local/babel/webdriverIO_web_mocha_babel_local/test/login/example.e2e.js)
+                    at createTimeoutError (/Users/jonatasmartins/Documents/Projetos/Projetos-base/web/mocha/local/babel/webdriverIO_web_mocha_babel_local/node_modules/mocha/lib/errors.js:498:15)
+                    at Test.Runnable._timeoutError (/Users/jonatasmartins/Documents/Projetos/Projetos-base/web/mocha/local/babel/webdriverIO_web_mocha_babel_local/node_modules/mocha/lib/runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (/Users/jonatasmartins/Documents/Projetos/Projetos-base/web/mocha/local/babel/webdriverIO_web_mocha_babel_local/node_modules/mocha/lib/runnable.js:246:24)
+                    at listOnTimeout (node:internal/timers:557:17)
+                    at processTimers (node:internal/timers:500:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
