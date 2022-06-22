@@ -11,7 +11,7 @@ exports.config = {
     key: process.env.BROWSERSTACK_ACCESS_KEY || 'LLzB8RrxrqsRVqadVu2R',
 
     specs: [
-        './test/**/**/*.js'
+        './tests/**/**/*.js'
     ],
     suites: {
         login: [

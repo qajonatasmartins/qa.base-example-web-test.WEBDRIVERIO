@@ -7,7 +7,7 @@ export default class LoginPage {
     get inpUsername() { return $('#username') }
     get inpPassword() { return $('#password') }
     get btnSubmit() { return $('button[type="submit"]') }
-    get lblMessage() { return $('.flash.error') }
+    get lblMessage() { return $('#flash') }
 
     /**
      * Método para abrir a tela de login
@@ -25,6 +25,7 @@ export default class LoginPage {
         await this.openLoginPage()
         await this.setInpUsername(username)
         await this.setInpPassword(password)
+        await this.clickBtnSubmit()
     }
 
     /**

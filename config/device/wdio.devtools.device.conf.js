@@ -19,7 +19,7 @@ exports.config = {
     // Specify Test Files
     // ==================
     specs: [
-        './test/**/**/*.js'
+        './tests/**/**/*.js'
     ],
     suites: {
         login: [
@@ -39,6 +39,9 @@ exports.config = {
     capabilities: [{
         maxInstances: 5,
         browserName: 'chrome',
+        'goog:chromeOptions': {
+            args: ['--headless',]
+        },
         acceptInsecureCerts: true
     }],
     //

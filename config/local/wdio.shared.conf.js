@@ -15,7 +15,7 @@ exports.config = {
     // Specify Test Files
     // ==================
     specs: [
-        './test/**/**/*.js'
+        './tests/**/**/*.js'
     ],
     suites: {
         login: [

@@ -2,3 +2,5 @@
 .vscode
 package-lock.json
 **.log
+**.png
+**.xml
