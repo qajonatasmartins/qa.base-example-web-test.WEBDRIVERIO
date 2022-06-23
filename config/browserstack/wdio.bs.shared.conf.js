@@ -7,8 +7,8 @@ if (!ENV || !['STAGING', 'HML', 'PROD'].includes(ENV)) {
     process.exit()
 }
 exports.config = {
-    user: process.env.BROWSERSTACK_USERNAME || 'jonatasmartinsfa_NCTlSB',
-    key: process.env.BROWSERSTACK_ACCESS_KEY || 'LLzB8RrxrqsRVqadVu2R',
+    user: process.env.BROWSERSTACK_USERNAME || 'InformeSuaChave',
+    key: process.env.BROWSERSTACK_ACCESS_KEY || 'InformeSuaSenhaDaChave',
 
     specs: [
         './tests/**/**/*.js'
