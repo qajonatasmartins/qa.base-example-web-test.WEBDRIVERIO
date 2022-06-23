@@ -19,7 +19,14 @@ exports.config = {
     ],
     suites: {
         login: [
-            './test/login/*.js'
+            './tests/login/*.js'
+        ],
+        login2: [
+            './tests/login/example1.e2e.js',
+            [
+                './tests/login/example2.e2e.js',
+                './tests/login/example3.e2e.js'
+            ]
         ],
         otherFeature: [
             // ...
@@ -33,7 +40,7 @@ exports.config = {
     // Test Configurations
     // ===================
     maxInstances: 10,
-    logLevel: 'info',
+    logLevel: 'error',
     bail: 0,
     baseUrl: ``,
     waitforTimeout: 10000,
