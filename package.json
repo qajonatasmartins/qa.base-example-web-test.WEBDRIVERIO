@@ -44,7 +44,8 @@
         "browserstack_firefox_login": "wdio run ./config/browserstack/wdio.bs.firefox.conf.js --suite login",
         "allure_browserstack_firefox": "allure serve ./report/browserstack/firefox/",
         "browserstack_parallel": "wdio run ./config/browserstack/wdio.bs.parallel.conf.js",
-        "allure_browserstack_parallel": "allure serve ./report/browserstack/parallel/"
+        "allure_browserstack_parallel": "allure serve ./report/browserstack/parallel/",
+        "repl": "wdio repl chrome"
     },
     "dependencies": {
         "browserstack-local": "^1.4.8",

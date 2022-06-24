@@ -39,9 +39,9 @@ exports.config = {
     capabilities: [{
         maxInstances: 5,
         browserName: 'chrome',
-        'goog:chromeOptions': {
-            args: ['--headless',]
-        },
+        // 'goog:chromeOptions': {
+        //     args: ['--headless',]
+        // },
         acceptInsecureCerts: true
     }],
     //

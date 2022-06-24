@@ -7,7 +7,7 @@ import { loginAccount } from "../../data/login/login.data"
 describe(describeName.securityTeam, () => {
 
     it('[WDIO-LOGIN-0001] - Validar login por usuario e senha', async () => {
-        await utils.addTagsAllureReports(feature.login, severity.normal, `CAO-1234`)
+        await utils.addTagsAllureReports(feature.login, severity.blocker, `CAO-1234`)
         await loginPage.login(loginAccount.username, loginAccount.password)
         await assertJs.include(await loginPage.getTextLblMessage(), loginAccount.success, 'A mensagem obtida é divergente do esperado!')
     })
