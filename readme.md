@@ -1,6 +1,6 @@
 # 4alltesters_webdriverIO_23062022
 
-![Pipeline](https://github.com/qajonatasmartins/qa.base-example-web-test.WEBDRIVERIO/workflows/Pipeline/badge.svg)
+![Pipeline](https://github.com/qajonatasmartins/qa.base-example-web-test.WEBDRIVERIO/actions/workflows/tests.yml/badge.svg)
 
 **E ai QA, Bugou?**
 
