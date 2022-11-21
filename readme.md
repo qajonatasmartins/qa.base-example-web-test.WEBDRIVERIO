@@ -1,5 +1,7 @@
 # 4alltesters_webdriverIO_23062022
 
+![Pipeline](https://github.com/qajonatasmartins/qa.base-example-web-test.WEBDRIVERIO/workflows/Pipeline/badge.svg)
+
 **E ai QA, Bugou?**
 
 >> Aqui quem fala é o @qajonatasmartins e esse projeto é para ensinar a como criar um projeto base de automação de testes com o WebdriverIO, segue abaixo o tutorial para criar do zero o projeto.
